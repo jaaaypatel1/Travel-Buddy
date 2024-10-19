@@ -1,0 +1,100 @@
+/* Updated styles.css with original colors */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4; /* Old background color */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333; /* Old header background color */
+    color: white;
+    padding: 1rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.home-link {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+button {
+    background-color: #f4f4f4; /* Old button background color */
+    color: #333; /* Old button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd; /* Old button hover background color */
+}
+
+main {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333; /* Old footer background color */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

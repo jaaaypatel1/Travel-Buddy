@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="../MainPage/MainPage.html" class="home-link"><h1>Travel Planner</h1></a> <!-- Link to main.html -->
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2>Plan Your Trip</h2>
+            <form>
+                <div class="form-group">
+                    <label for="to-location">To Location:</label>
+                    <input type="text" id="to-location" name="to-location" required>
+                </div>
+                <div class="form-group">
+                    <label for="from-location">From Location:</label>
+                    <input type="text" id="from-location" name="from-location" required>
+                </div>
+                <div class="form-group">
+                    <label for="arrival-day">Arrival Day:</label>
+                    <input type="date" id="arrival-day" name="arrival-day" required>
+                </div>
+                <div class="form-group">
+                    <label for="return-day">Return Day:</label>
+                    <input type="date" id="return-day" name="return-day" required>
+                </div>
+                <div class="form-group">
+                    <label for="budget">Budget ($):</label>
+                    <input type="number" id="budget" name="budget" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Planner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
