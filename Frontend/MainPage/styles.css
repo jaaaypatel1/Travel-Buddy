@@ -52,8 +52,22 @@ button {
     color: rgb(0, 0, 0);
 }
 
+.plan-trip-btn {
+    font-family: Arial, sans-serif;
+    border: #9f9f9f;
+    padding: 15px 25px; /* Adjust the vertical and horizontal padding */
+    font-size: 30px; /* Increase the font size */
+    border-radius: 5px; /* Optional: round the corners of the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: #b8f1c4;
+}
+
+.plan-trip-btn:hover {
+    background-color: #6dac7b; /* Optional: change background color on hover */
+}
+
 button:hover {
-    background-color: #ddd;
+    background-color: #a4a4a4;
 }
 
 main {
@@ -70,4 +84,11 @@ footer {
     width: 100%;
     bottom: 0;
 }
+ul {
+    padding-left: 20px; /* Move bullets to the right */
+}
+
+li {
+    padding-left: 10px; /* Space between bullet and text */
+}   
 
